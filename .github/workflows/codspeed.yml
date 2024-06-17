@@ -22,5 +22,5 @@ jobs:
       - name: Run benchmarks
         uses: CodSpeedHQ/action@v2
         with:
-          run: yarn bench
+          run: yarn vitest bench
           token: ${{ secrets.CODSPEED_TOKEN }}
